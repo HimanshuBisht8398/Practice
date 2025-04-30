@@ -1,7 +1,6 @@
 const express=require('express')
 const app=express()
 
-
 app.get('/',(req,res)=>{
     res.send({code:200,message:"Hello Backend is runing successfully!!"})
 })
